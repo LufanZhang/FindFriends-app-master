@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_info_bubble"
+    tools:context="com.example.mapdemo.MainActivity" >
+    <ImageView
+        android:id="@+id/badge"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="1dp"
+        android:adjustViewBounds="true" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/badge"
+        android:layout_toRightOf="@id/badge"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#ff7f7f7f"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignLeft="@id/snippet"
+        android:layout_below="@id/snippet"
+        android:textColor="#ff7f7f7f"
+        android:textSize="12sp" />
+
+</RelativeLayout>

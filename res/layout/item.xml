@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dip"
+    android:paddingLeft="12dip"
+    android:paddingRight="12dip" >
+
+
+    <TextView
+        android:id="@+id/location_ls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:textSize="18dip" />
+
+    <TextView
+        android:id="@+id/location_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_ls"
+        android:maxLines="2"
+        android:paddingRight="20dip"
+        />
+
+</RelativeLayout>
